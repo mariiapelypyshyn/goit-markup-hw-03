@@ -302,6 +302,8 @@ img {
 }
 .btn-filter {
   border-radius: 4px;
+  padding: 12px 24px;
+  border: 1px solid var(--border-btn);
 
   font-weight: 500;
   font-size: 16px;
@@ -322,15 +324,10 @@ img {
 .projects {
   padding: 96px 0 120px;
 }
-.projects-container {
-  padding: 32px 16p;
-  border: 1px solid #e7e9fc;
-}
 
 .projects-list-btn {
   display: flex;
   gap: 24px;
-  padding: 12px 24px;
   justify-content: center;
   margin-bottom: 72px;
 }
@@ -368,6 +365,6 @@ img {
   margin-bottom: 0;
 }
 .projects-text {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
